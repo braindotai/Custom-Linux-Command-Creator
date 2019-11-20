@@ -34,10 +34,12 @@ Make sure that you are running "commander" where the that python file is saved.
 Now you can simply run the command by the name of your python file
 Example:
 Now you can run commandname as below
-`$ commandname arg1 arg2`
+`$ commandname arg1 arg2`, prints
 ```
 arg1
 arg2
 ```
+
+You can delete the cloned repository if you want to.
 
 # __ENJOY__
