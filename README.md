@@ -4,7 +4,7 @@
 
 ### Step 1.
 In the shell run:
-- `$ git clone https://github.com/braindotai/Custom-Linux-Command-Maker.git`
+- `$ git clone https://github.com/braindotai/Custom-Linux-Command-Creator.git`
 - `$ cd Custom-Linux-Command-maker`
 - `$ chmod +x commander`
 - `$ mkdir ~/bin`
