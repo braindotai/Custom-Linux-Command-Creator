@@ -1,4 +1,4 @@
-## Custom Linux Command Creator
+## Custom Shell Command Creator
 
 ### Usage
 
@@ -6,8 +6,8 @@
 
 ### Step 1.
 In the shell run:
-- `$ git clone https://github.com/braindotai/Custom-Linux-Command-Creator.git`
-- `$ cd Custom-Linux-Command-creator`
+- `$ git clone https://github.com/braindotai/Custom-Shell-Command-Creator.git`
+- `$ cd Custom-Shell-Command-creator`
 - `$ chmod +x commander`
 - `$ mkdir ~/bin`
 - `$ cp commander ~/bin"`
@@ -18,7 +18,7 @@ Then go back to working directory
 
 
 ### Step 2.
-Create any python file that you want to convert into a linux command, and save it.
+Create any python file that you want to convert into a shell command, and save it.
 For example-
 ```python
 import sys
