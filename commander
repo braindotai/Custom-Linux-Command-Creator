@@ -1,16 +1,18 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import os
 import sys
 
-try:
+if len(sys.argv) == 3:
 	name = sys.argv[1] + '.py'
-except:
-	raise ValueError("Name of command file is required")
+else:
+	print("You need to name of the python file")
+	print("Run '$ commander <python file name>'")
+	sys.exit(1)
 
 with open(name, "r+") as file:
 	old = file.read()
 	file.seek(0)
-	file.write("#!/usr/bin/env python\n" + old)
+	file.write("#!/usr/bin/env python3\n" + old)
 	file.close()
 
 os.system("chmod +x " + name)
